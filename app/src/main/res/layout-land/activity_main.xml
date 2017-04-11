@@ -1,0 +1,99 @@
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/main_fragment"
+        class="org.example.coursework2.MainFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/appointment_create_fragment"
+        class="org.example.coursework2.AppointmentCreateFragment"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:layout="@layout/fragment_create_appointment"
+        android:visibility="gone"
+
+        />
+
+
+    <fragment
+        class="org.example.coursework2.ChoseToDeleteFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_delete_chose_appointmenrt"
+        tools:layout="@layout/fragment_chose_appointment_to_delete"
+        android:visibility="gone"
+
+        android:layout_gravity="center"
+        />
+
+    <fragment
+        class="org.example.coursework2.DeleteAppointmentFragment"
+        android:layout_width="267dp"
+        android:layout_height="130dp"
+        android:id="@+id/delete_appiontment_fragment"
+        tools:layout="@layout/fragment_delete_appointment"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+
+    <fragment
+        class="org.example.coursework2.EditAppointmentFragment"
+        android:layout_width="324dp"
+        android:layout_height="497dp"
+        android:id="@+id/edit_appiontment_fragment"
+        tools:layout="@layout/fragment_edit_details"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+
+    <fragment
+        class="org.example.coursework2.MoveAppointmentFragment"
+        android:layout_width="324dp"
+        android:layout_height="497dp"
+        android:id="@+id/move_appiontment_fragment"
+        tools:layout="@layout/fragment_move_appointment"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+
+    <fragment
+        class="org.example.coursework2.SynonymsListFragment"
+        android:layout_width="324dp"
+        android:layout_height="497dp"
+        android:id="@+id/list_synonymus_fragment"
+        tools:layout="@layout/fragment_list_of_synonyms"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical" />
+
+
+
+    <fragment
+        class="org.example.coursework2.SecondSynonymsListFragment"
+        android:layout_width="324dp"
+        android:layout_height="497dp"
+        android:id="@+id/second_list_synonymus_fragment"
+        tools:layout="@layout/fragment_second_synonym_list"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical" />
+
+
+
+
+</FrameLayout>

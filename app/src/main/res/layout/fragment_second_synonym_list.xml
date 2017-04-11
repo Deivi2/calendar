@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/customborder"
+
+    >
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="X"
+        android:id="@+id/button_to_close_second_list_of_synonims"
+        android:layout_gravity="right" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_for_second_fragment" />
+</LinearLayout>

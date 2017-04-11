@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_margin="10dp"
+        android:layout_width="342dp"
+        android:layout_height="317dp"
+        android:layout_weight="2.13"
+        android:layout_x="28dp"
+        android:layout_y="45dp" />
+
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="35dp"
+        android:text="View/Edit Appointments"
+        android:id="@+id/edit_appointment_button"
+        android:layout_x="376dp"
+        android:layout_y="139dp" />
+
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="34dp"
+        android:text="Create Appointment "
+        android:id="@+id/create_appoinment_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_x="374dp"
+        android:layout_y="177dp" />
+
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="35dp"
+        android:text="Delete Appointment"
+        android:id="@+id/delete_appointment_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_x="371dp"
+        android:layout_y="218dp" />
+
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="35dp"
+        android:text="Move Appointments"
+        android:id="@+id/move_appintment_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_x="374dp"
+        android:layout_y="98dp" />
+
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="35dp"
+        android:text="Search"
+        android:id="@+id/search_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_x="374dp"
+        android:layout_y="56dp" />
+
+
+</AbsoluteLayout>
